@@ -1,0 +1,849 @@
+*{
+
+margin: 0px;
+padding: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;
+
+}
+
+a{
+
+color: white;    
+
+}
+
+@font-face{
+
+font-family: K-Webbers;
+src: url('../../fuentes/komica/KOMIKAX_.ttf');
+}
+
+.contenedor-general{
+
+margin: auto;    
+width: 100%;
+height: 3000px;    
+
+}
+
+.box-slider{
+
+width: 100%;
+height: 22%;
+
+background-image: url('../../Img/portada1.png');   
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+
+.header{
+
+width: 75%;
+height: 15%;
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+}
+
+.box-logo{
+
+    width: 20%;  
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .logo{
+    
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    }
+
+.fa-bars{
+
+position: absolute;  
+right: 4%; 
+top: 10%;
+display: none;
+color: #fda23b;
+font-size: 2rem;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.247);
+}    
+  
+
+.menu{
+
+width: 80%;
+height: 65%;
+border-radius: 3em;
+background-color: #FFBD72;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+
+.btn-menu{
+
+width: 100%;
+height: 100%;
+cursor: pointer;
+color: white;
+border-right: 1px solid rgba(255, 255, 255, 0.274);
+font-size: 1.2em;
+text-decoration: none;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.btn-menu:hover{
+
+background-color: white;
+color: #FFBD72;
+
+}
+
+.btn-menu-inicio:hover{
+
+background-color: white;
+color: #FFBD72; 
+border-radius: 2em 0em 0em 2em;
+
+}
+
+
+
+.btn-menu-social{
+
+width: 30%;   
+margin-left: 1%; 
+color: white;
+font-size: 1.5em;
+
+}
+
+.fab:hover{
+
+    font-size: 1.3em;
+    cursor: pointer;
+    }
+
+
+.box-msj-portada{
+
+width: 80%;
+
+}
+
+.msj-portada{
+
+font-family: K-Webbers;    
+font-size: 2.5em;
+color: white;
+text-shadow: 2px 2px 2px #00000088;
+text-align: center;
+
+
+}
+
+.btn-turno{
+
+width: 250px;
+height: 80px;
+color: white;
+font-size: 1.5em;
+background-color:#FFBD72;
+border: none;
+border-radius: 4em;
+cursor: pointer;
+outline: none;
+
+}
+
+
+.publicidad{
+
+width: 100%;    
+display: flex;
+justify-content: center;
+
+}
+
+.barbijo{
+
+width: 30%;    
+    
+}
+
+.box-intro-nosotros{
+
+width: 100%;
+height: 20%;
+
+border: 1px solid rgb(218, 218, 218);
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.contenedor-titulo-nosotros{
+
+width: 100%;
+height: 20%;    
+
+}
+
+.box-nosotros-titulo{
+
+margin-top: 2%;   
+font-family: K-Webbers; 
+font-size: 2em;
+width: 40%;
+height: 100%;
+color: white;
+background-color: #FFBD72;
+border-radius: 0em 3em 3em 0em;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.parrafo-nosotros{
+width: 80%;    
+margin-top: 2%;
+font-size: 1.2em;
+text-align: justify;    
+color: grey;
+
+}
+
+.box-boton-nosotros{
+
+width: 100%;
+height: 20%;
+
+display: flex;
+justify-content: center;
+}
+
+.btn-parrafo-nosotros{
+
+width: 200px; 
+height: 80px;   
+margin-top: 2%;
+
+}
+
+.contenedor-box-nuestro-espacio{
+
+width: 100%;
+height: 30%;
+
+display: flex;
+justify-content: center;
+
+}
+
+.box-nuestro-espacio{
+  
+width: 100%;
+height: 100%;
+background-image: url('../../Img/diseño2.png');
+background-repeat: no-repeat;
+
+}
+
+.titulo-nuestro-espacio{
+margin-top: 10%;
+margin-left: 5%;
+font-family: K-Webbers;
+font-size: 2em;
+color: rgb(255, 255, 255);
+    
+}
+
+.box-nuestro-espacio-video{
+
+    width: 100%;
+    height: 80%;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.nuestro-espacio-video{
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 2em;
+}
+
+.contenedor-pie-pagina{
+margin-top: 12%;
+width: 100%;
+height: 10%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.pie-pagina{
+  
+width: 70%;
+height: 15%; 
+text-align: center;
+color: grey;
+font-family: K-Webbers;  
+font-size: 2em;
+
+display: flex;
+align-items: center;
+}
+
+.img-pie-pagina{
+
+ width: 30%;   
+}
+
+.footer{
+
+width: 100%;
+height: 10%;
+background-color: #FFBD72;
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.contenedor-medios-pagos{
+
+    width: 50%;
+    height: 50%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.medios-pagos{
+
+width: 50%;
+
+}
+
+.titulo-pagos{
+
+font-size: 1.8em; 
+color: white;   
+margin-bottom: 5%;
+}
+
+.box-mapa{
+
+font-size: 1.8em;
+
+ width: 46%;
+ height: 50%;
+
+ display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.mapa-google{
+
+    width: 50%; 
+      
+    border-radius: 0.5em;
+    
+    }
+
+.titulo-mapa{
+
+color: white;
+
+}
+
+/*Servicios*/
+
+.contenedor-general-servicios{
+
+
+    margin: auto;    
+    width: 100%;
+    height: 4800px;    
+    
+
+}
+
+.box-slider-servicios{
+    width: 100%;
+    height: 13.7%;    
+    background-image: url('../../Img/portada2.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }   
+
+.contenedor-titulo-servicios{
+  
+width: 100%;    
+height: 3%;    
+
+}
+
+.box-intro-servicios{
+
+width: 100%;
+height: 100%;
+  
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.contenedor-opciones-servicios{
+margin-top: 10%;
+width: 90%;
+height: 100%;    
+
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.opcion-servicio{
+
+    width: 70%;
+    height: 15%;
+    border-radius: 2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.parrafo-servicio{
+    margin-top: 10%;
+    width: 80%;
+    color: grey;
+    text-align: justify;
+
+}
+
+.opcion-1{
+
+background-image: url('../../Img/Yoga.png');
+
+}
+
+.opcion-2{
+
+ 
+
+background-image: url('../../Img/Reiki.png');
+
+}
+
+
+.opcion-3{
+
+
+background-image: url('../../Img/Karuna.png');
+
+}
+
+.opcion-4{
+
+
+
+background-image: url('../../Img/Tarot.png');    
+}
+
+.opcion-5{
+
+    background-image: url('../../Img/Cuencos.png');    
+    }
+
+.opcion-6{ 
+        width: 70%;
+        height: 20%; 
+        background-image: url('../../Img/Reeducacion.png');    
+        }    
+
+.agregado-reeducacion{
+
+width: 80%;
+
+}        
+
+.contenedor-pie-pagina-servicios{
+
+            margin-top: 12%;
+            width: 100%;
+            height: 10%;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        
+        }
+
+
+.img-pie-pagina-servicios{
+
+            width: 18%;   
+           }
+
+/*Nosotros*/
+
+.contenedor-general-nosotros{
+
+width: 100%;
+height: 2400px;
+
+}
+
+.box-slider-nosotros{
+
+    width: 100%;
+    height: 27%;    
+    background-image: url('../../Img/portada3.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box-nosotros{
+
+    width: 100%;
+    height: 40%;
+    
+    border: 1px solid rgb(218, 218, 218);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.nosotros-parrafo{
+
+width: 60%;
+font-size: 1.2em;
+text-align: justify; 
+color: grey;
+}
+
+.box-titulo-nosotros{
+
+width: 100%;
+height: 14%;
+
+}
+
+.contenedor-pie-pagina-nosotros{
+
+    margin-top: 12%;
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+ .firma{
+
+font-family: K-Webbers;
+color: #FFBD72;
+font-size: 1.5em;
+ }   
+
+ .footer-nosotros{
+
+    width: 100%;
+    height: 15%;
+    background-color: #FFBD72;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+
+ .mapa-google-nosotros{
+
+
+        width: 50%; 
+      
+          
+        border-radius: 0.5em;
+        
+    
+
+ }
+
+ @media (min-width:300px) and (max-width:600px)  {
+
+
+.contenedor-general{
+
+width: 100%;    
+height: 1500px;
+}
+
+ .box-slider{
+
+ height: 40%;   
+ }
+
+.header{
+
+    
+}
+
+.box-logo{
+
+ width: 50%;   
+}
+
+.menu{
+
+position: fixed;
+visibility: hidden;
+right: 0%;
+top: 0%;
+width: 70%;
+height: 100%;
+border-radius: 0%;
+flex-wrap: wrap;
+align-items: center;
+
+}
+
+#mainInter{
+
+color: white;
+
+}
+
+.btn-menu-inicio{
+ width: 100%;   
+ height: 10%;
+ border-radius: 0em;   
+}
+
+.btn-menu{
+    height: 8%;
+    font-size: 1rem;
+ 
+}
+
+.btn-menu:hover{
+
+background-color: transparent;
+color: white;
+
+}
+
+.btn-menu-social{
+
+margin-left: 2%;
+
+text-align: center;
+}
+
+
+.msj-portada{
+
+width: 100%;    
+font-size: 1.8rem;
+
+}
+
+.btn-turno{
+
+width: 45%;
+height: 12%;
+font-size: 1.1rem;
+}
+
+.barbijo{
+
+    display: none;
+}
+
+.box-intro-nosotros{
+
+height: 25%;
+border: none;
+}
+
+.contenedor-titulo-nosotros{
+
+height: 20%;
+
+}
+
+.box-nosotros-titulo{
+
+width: 45%;
+height: 100%;
+font-size: 1rem;
+}
+
+.parrafo-nosotros{
+
+width: 80%;
+height: 50%;
+margin-top: 7%;
+font-size: 0.78rem;
+
+}
+
+.box-boton-nosotros{
+
+height: 15%;
+
+}
+
+.btn-parrafo-nosotros{
+
+height: 100%;
+
+}
+
+.contenedor-box-nuestro-espacio{
+
+
+height: 25%;
+
+}
+
+.box-nuestro-espacio{
+  
+height: 100%;
+
+}
+
+.titulo-nuestro-espacio{
+
+
+    margin-top: 14%;
+    font-size: 1.2rem;
+
+}
+
+.nuestro-espacio-video{
+ width: 90%;
+ height: 70%;   
+}
+
+.pie-pagina{
+
+height: 50%;
+font-size: 1rem;
+}
+
+.img-pie-pagina{
+
+width: 42%;    
+}
+
+.footer{
+
+height: 10%;
+
+}
+
+.contenedor-medios-pagos{
+
+margin-top: 1%;
+
+}
+
+.titulo-pagos{
+
+font-size: 1rem;
+
+}
+
+.medios-pagos{
+
+width: 80%;
+
+}
+
+.titulo-mapa{
+
+font-size: 1rem;
+
+}
+
+.box-mapa{
+width: 50%;
+height: 50%;
+
+}
+
+.mapa-google{
+width: 80%;
+height: 100%;
+}
+
+ }

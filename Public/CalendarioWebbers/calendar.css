@@ -1,0 +1,229 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.calendario{
+    margin: auto;
+    margin-top: 2%;
+    width: 270px;
+    height: 250px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+  
+}
+
+.parte-superior{
+
+width: 100%;
+height: 10%;
+color: white;
+background-color: rgba(255, 136, 0, 0.575);
+align-items: center;
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.año{
+  
+width: 35%;    
+border: 1px solid white;     
+
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+
+.mes{
+
+    width: 35%;    
+    border: 1px solid white;     
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box-nombre-dias{
+margin-top: 2%;
+width: 100%;
+height: 10%;
+
+
+display: flex;
+}
+
+.nombre-dias{
+margin-left: 4.45%;
+width: 9%;
+height: 100%;
+color: gray;
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.parte-inferior{
+
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    }
+
+.parte-dias{
+margin-left: 2%;
+width: 100%;
+height: 90%;
+background-color: white;
+display: flex;
+flex-wrap: wrap;    
+justify-content: flex-start;
+
+}
+
+.dias{
+margin: 2%;    
+width: 9%;
+height: 10%;
+border: solid 1px white;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.dias:hover{
+    cursor: pointer;
+    border-radius: 1em;
+    padding: 1%;    
+    background-color: rgba(255, 94, 0, 0.747);
+    color: white;
+    transition: ease 400ms;
+    }
+
+.diasOcupados{
+
+color: rgb(211, 9, 9);
+margin: 2%;    
+width: 9%;
+height: 10%;
+border: solid 1px white;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}    
+
+.dias-disabled{
+    margin: 2%;    
+    width: 9%;
+    height: 10%;
+    border: 1px solid rgba(201, 197, 197, 0.466) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+
+.opciones-mes{
+
+position: absolute;
+right: 0%;
+top: 14%;  
+width: 120px;
+height: 300px;
+background-color: white;
+box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+
+
+display: none;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.mes-opcion{
+
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mes-opcion:hover{
+
+
+background-color: rgba(15, 19, 255, 0.575);    
+color: white;
+
+}
+
+.opciones-año{
+
+    position: absolute;   
+    width: 120px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    
+    
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+
+}
+
+.año-opcion{
+
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.año-opcion:hover{
+
+    background-color: rgba(15, 19, 255, 0.575);    
+    color: white;
+    
+    }
+
+
+.dia-hoy{
+    margin: 2%;    
+    width: 9%;
+    height: 10%;
+    border: 2px solid rgba(51, 76, 214, 0.753);
+ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.feriados{
+
+    color: red;
+}
+
